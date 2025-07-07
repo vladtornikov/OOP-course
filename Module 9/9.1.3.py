@@ -11,7 +11,9 @@ print(cipher.decode('Gjjljjp'))      # Beegeek
 
 print(cipher.encode('Биgeek123'))    # Биljjp123
 print(cipher.decode('Биljjp123'))    # Биgeek123
-Примечание 1. Гарантируется, что сдвигом является число из диапазона [1; 26]."""
+Примечание 1. Гарантируется, что сдвигом является число из диапазона [1; 26].
+
+Тестовые задания: https://github.com/python-generation/OOP/tree/main/Module_9/Module_9.1/Module_9.1.3"""
 
 import string
 
