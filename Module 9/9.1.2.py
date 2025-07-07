@@ -21,7 +21,9 @@ print(a == Vector(1, 2, 3))    # True
 print(a == Vector(4, 5, 6))    # False
 При попытке выполнить какую-либо операцию с векторами разной размерности должно быть возбуждено исключение ValueError с текстом:
 
-Векторы должны иметь равную длину"""
+Векторы должны иметь равную длину
+
+Тестовые задания: https://github.com/python-generation/OOP/tree/main/Module_9/Module_9.1/Module_9.1.2"""
 
 from __future__ import annotations
 from math import sqrt
